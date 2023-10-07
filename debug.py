@@ -51,10 +51,10 @@ def nheadstart_print(block):
 
 def caught_print(block):
         with open("scandata/Recent_Attempts", "a") as f:
-            print('Caught Block for', round(block['rateInfo']['priceAmount'], 1), 'Dollars', file=f)
+            print('Caught Block for', round(block['rateInfo']['priceAmount'], 1), 'GBP', file=f)
             print('----------------------------------')
 
 def missed_print(block):
         with open("scandata/Recent_Attempts", "a") as f:
-            print('Missed Block for', round(block['rateInfo']['priceAmount'], 1), 'Dollars', file=f)
+            print('Missed Block for', round(block['rateInfo']['priceAmount'], 1), 'GBP', file=f)
             print('----------------------------------')

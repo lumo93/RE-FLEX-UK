@@ -27,7 +27,7 @@ def baserate_filter(block):
     #b_headstart = block["startTime"] - int(time.time())
     b_rate = b_price / b_length
     return (
-        b_rate == 18
+        b_rate == 14
     )
 
 #advanced filters
