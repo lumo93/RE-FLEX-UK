@@ -40,14 +40,14 @@ oauth_params = {
     "openid.oa2.response_type": "code",
     "openid.oa2.code_challenge_method": "S256",
     "openid.oa2.code_challenge": code_challenge,
-    "openid.return_to": "https://www.amazon.co.uk/ap/maplanding",
+    "openid.return_to": "https://www.amazon.com/ap/maplanding",
     "openid.assoc_handle": "amzn_device_na",
     "openid.identity": "http://specs.openid.net/auth/2.0/identifier_select",
     "pageId": "amzn_device_na",
     "accountStatusPolicy": "P1",
     "openid.claimed_id": "http://specs.openid.net/auth/2.0/identifier_select",
     "openid.mode": "checkid_setup",
-    "openid.ns.oa2": "http://www.amazon.co.uk/ap/ext/oauth/2",
+    "openid.ns.oa2": "http://www.amazon.com/ap/ext/oauth/2",
     "openid.oa2.client_id": f"device:{client_id}",
     "openid.ns.pape": "http://specs.openid.net/extensions/pape/1.0",
     "openid.ns": "http://specs.openid.net/auth/2.0",
@@ -56,7 +56,7 @@ oauth_params = {
     "forceCaptcha": "true",
     "use_global_authentication": "false"
 }
-challenge_link = f"https://www.amazon.co.uk/ap/signin?{urlencode(oauth_params)}"
+challenge_link = f"https://www.amazon.com/ap/signin?{urlencode(oauth_params)}"
 
 
 def register_account(maplanding_url):
