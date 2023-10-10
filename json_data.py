@@ -21,6 +21,6 @@ search_json_data = {
 def accept_json_data(offerID):
     # This is the json data needed to accept a block, it takes an argument to extract the offer ID for the selected block
     return {
-        "__type": "AcceptOfferInput:http://internal.amazon.co.uk/coral/com.amazon.omwbuseyservice.offers/",
+        "__type": "AcceptOfferInput:http://internal.amazon.com/coral/com.amazon.omwbuseyservice.offers/",
         "offerId": offerID,
     }
